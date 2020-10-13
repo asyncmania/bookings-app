@@ -1,11 +1,10 @@
 import React from "react";
-
+import BookablesList from "./BookablesList";
 
 export default function BookablesPage() {
-
-  return(
+  return (
     <main className="bookables-page">
-      <p>Bookables !</p>
+      <BookablesList />
     </main>
-  )
+  );
 }
